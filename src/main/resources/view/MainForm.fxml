@@ -43,8 +43,8 @@
                         <Font name="Ubuntu Bold" size="13.0" />
                      </font>
                   </Label>
-                  <Slider fx:id="slrRED" orientation="VERTICAL" prefHeight="296.0" prefWidth="119.0" />
-                  <TextField fx:id="txtRED" alignment="CENTER" promptText="30" />
+                  <Slider fx:id="slrRed" orientation="VERTICAL" prefHeight="296.0" prefWidth="119.0" />
+                  <TextField fx:id="txtRed" alignment="CENTER" promptText="30" />
                </children>
             </VBox>
             <VBox prefHeight="335.0" prefWidth="93.0">
@@ -54,8 +54,8 @@
                         <Font name="Ubuntu Bold" size="13.0" />
                      </font>
                   </Label>
-                  <Slider fx:id="slrGREEN" orientation="VERTICAL" prefHeight="296.0" prefWidth="119.0" />
-                  <TextField fx:id="txtGREEN" alignment="CENTER" promptText="144" />
+                  <Slider fx:id="slrGreen" orientation="VERTICAL" prefHeight="296.0" prefWidth="119.0" />
+                  <TextField fx:id="txtGreen" alignment="CENTER" promptText="144" />
                </children>
             </VBox>
             <VBox prefHeight="335.0" prefWidth="93.0">
@@ -65,8 +65,8 @@
                         <Font name="Ubuntu Bold" size="13.0" />
                      </font>
                   </Label>
-                  <Slider fx:id="slrBLUE" orientation="VERTICAL" prefHeight="296.0" prefWidth="119.0" />
-                  <TextField fx:id="txtBLUE" alignment="CENTER" prefHeight="19.0" prefWidth="89.0" promptText="255" />
+                  <Slider fx:id="slrBlue" orientation="VERTICAL" prefHeight="296.0" prefWidth="119.0" />
+                  <TextField fx:id="txtBlue" alignment="CENTER" prefHeight="19.0" prefWidth="89.0" promptText="255" />
                </children>
             </VBox>
             <VBox prefHeight="335.0" prefWidth="93.0">
@@ -76,14 +76,14 @@
                         <Font name="Ubuntu Bold" size="13.0" />
                      </font>
                   </Label>
-                  <Slider fx:id="slrALPHA" orientation="VERTICAL" prefHeight="296.0" prefWidth="119.0" />
-                  <TextField fx:id="txtALPHA" alignment="CENTER" promptText="255" />
+                  <Slider fx:id="slrAlpha" orientation="VERTICAL" prefHeight="296.0" prefWidth="119.0" />
+                  <TextField fx:id="txtAlpha" alignment="CENTER" promptText="255" />
                </children>
             </VBox>
          </children>
       </HBox>
-      <Rectangle arcHeight="100.0" arcWidth="100.0" fill="DODGERBLUE" height="179.0" layoutX="394.0" layoutY="178.0" stroke="BLACK" strokeType="INSIDE" width="176.0" />
-      <TextField fx:id="txtCOLOR" alignment="CENTER" layoutX="420.0" layoutY="374.0" prefHeight="23.0" prefWidth="124.0" promptText="#1E90FF" />
+      <Rectangle fx:id="shpColor" arcHeight="100.0" arcWidth="100.0" fill="DODGERBLUE" height="179.0" layoutX="394.0" layoutY="178.0" stroke="BLACK" strokeType="INSIDE" width="176.0" />
+      <TextField fx:id="txtColor" alignment="CENTER" layoutX="420.0" layoutY="374.0" prefHeight="23.0" prefWidth="124.0" promptText="#1E90FF" />
       <Label layoutX="453.0" layoutY="149.0" text="PREVIEW" />
    </children>
 </AnchorPane>
