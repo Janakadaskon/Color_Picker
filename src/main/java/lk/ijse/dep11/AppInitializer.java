@@ -19,6 +19,8 @@ public class AppInitializer extends Application {
         AnchorPane root = FXMLLoader.load(getClass().getResource("/view/MainForm.fxml"));
         Scene mainScene = new Scene(root);
         primaryStage.setScene(mainScene);
+        primaryStage.setTitle("Color Picker App");
+        primaryStage.setResizable(false);
         primaryStage.centerOnScreen();
         primaryStage.show();
 
