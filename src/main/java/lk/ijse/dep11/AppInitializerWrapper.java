@@ -3,14 +3,11 @@ package lk.ijse.dep11;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
-public class AppInitializerWrapper extends Application {
+public class AppInitializerWrapper  {
 
     public static void main(String[] args) {
-        launch(args);
+        AppInitializer.main(args);
     }
 
-    @Override
-    public void start(Stage primaryStage) {
 
-    }
 }
